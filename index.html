@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <!--Contact section-->
+
+    <section class="contacts_section">
+
+          <a class="telegram_link" href="">
+            <img src="./img/icons/telegram-icon.svg" class="telegram_icon" alt="telegram">
+          </a>
+          <a class="viber_link" href="">
+            <img src="./img/icons/viber-icon.svg" class="viber_icon" alt="viber">
+          </a>
+          <a class="phone_link_icon" href="tel:+380932512322">
+            <img src="./img/icons/phone-icon.svg" class="phone_icon" alt="phone">
+          </a>
+          <a class="phone_link_number" href="tel:+380932512322">
+            +38 093 251 23 22
+          </a>
+
+    </section>
+    <!--Expirience section-->
+
+      <section class="exp_section">
+          <img src="./Безымянный.png" class="my_photo" alt="My photo">
+          <div> 
+            <a href="https://www.linkedin.com/in/%D0%B5%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BA%D1%80%D0%B5%D0%BD%D0%B8%D1%87%D0%BD%D1%8B%D0%B9-128895223/" class="linkedin_icon">
+            <img src="./img/icons/linkedin-icon.svg" alt="My_linkedIn_link" class="icon linkedin-icon">
+            </a>
+            <a href="https://www.facebook.com/krenichnij.evhen/" class="facebook_icon">
+            <img src="./img/icons/fb-icon.svg" alt="My_faceboock_link" class="icon">
+            </a>
+
+          </div>
+
+          <div class="exp_dicript">
+            <p class="exp_dicript_text exp_dicript_text_first">32 готовых проекта</p>
+            <p class="exp_dicript_text">2 года опыта</p>
+          </div>
+            
+          <div class="technolgies_container">
+            <img src="./img/icons/js-icon.svg" alt="" class="js_icon">
+            <img src="./img/icons/react-icon.svg" alt="" class="react_icon">
+            <img src="./img/icons/nodejs-icon.svg" alt="">
+          </div>
+
+            <a href="https://github.com/Krenichniy" class="my_projects_link">Мои работы</a>
+        </section>
+          
+        <!--My info section-->
+        <section class="my_info_section">
+          <h2 class="my_name">Привет! Я - Евгений Креничный</h2>
+          <h1 class="my_profession">Я делаю сайты</h1>
+
+          <p class="my_location">Живу в Киеве</p>
+         <p class="my_workstyle">Работаю удаленно</p>
+
+         <p class="my_description">Я - человек-оркестр. В одиночку заменяю целую веб-студию. </p>
+          
+         <div>
+           <p class="my_skills_title">Умею:</p>
+
+           <ul class="my_skills_list">
+             <li class="my_skills_item"> 
+               <span class="my_skills_text"> 
+                 Управлять IT-проектами и командами;   
+               </span>
+              </li>
+             <li class="my_skills_item">
+              <span class="my_skills_text">  
+                  Senior Front End разработчик;
+              </span>
+              </li>
+             <li class="my_skills_item" >
+              <span class="my_skills_text">  
+                 Middle Back End разработчик;
+              </span>    
+            </li>
+             <li class="my_skills_item">
+              <span class="my_skills_text">  
+                  Могу проконтролировать качество своего или вашего проекта, как QA - специалист.
+               </span> 
+            </li>
+           </ul>
+         </div>
+        </section>
+
+        <!--Project price section-->
+        <section class="project_price_section">
+          <form action="#" class="project_price_form" id="project_price_form">
+            <h4 class="project_price_title">Рассчитай стоимость проекта</h4>
+
+            <div class="project_type_container">
+              <label for="project_type" class="form_field_title">Тип сайта</label>
+              <select name="project_type" id="project_type" class="project_price_select">
+                <option value="landing-page">Landing page</option>
+                <option value="online-store">Online Store</option>
+                <option value="web-application">Web application</option>
+                <option value="mobile-application">Mobile Application</option>
+              </select>
+          </div>
+
+          <div class="activity_type_container">
+            <P class="form_field_title"> Типы работ </p>
+
+              <div class="activity_type_item">
+                <input type="checkbox" name="project_management" id="project_management" class="activity_type_checkbox">
+                <label for="project_management" class="activity_type_title"> Project Management</label>
+              </div>
+
+              <div class="activity_type_item">
+                <input type="checkbox" name="design" id="design" class="activity_type_checkbox">
+                <label for="design" class="activity_type_title"> Design</label>
+              </div>
+
+              <div class="activity_type_item">
+                <input type="checkbox" name="development" id="development" class="activity_type_checkbox">
+                <label for="development" class="activity_type_title">Development</label>
+              </div>
+
+              <div class="activity_type_item">
+                <input type="checkbox" name="qa" id="qa" class="activity_type_checkbox">
+                <label for="qa" class="activity_type_title"> QA</label>
+              </div>
+             
+              
+              
+              
+          </div>
+
+          <div class="project_price_container">
+              <p class="form_field_title">Стоимость</p>
+              <p class="project_price_sum"><span class="project_price_sum_currency">$</span> <span id="totalPrice">0</span> </p>
+          </div>
+
+          <div class="project_price_calculate_btn_container">
+            <button class="project_price_calculate_btn">Отправить запрос</button>
+         </div>
+          </form>
+        </section>
+    </div>
+
+    <!--Modals section-->
+     
+     <div class="modal_bgd " id="modal_email">
+        <div class="modal_container">
+         <button class="modal_close_btn">
+           <img src="./img/icons/close-icon.svg" alt="close_icon" class="modal_icon">
+        </button> 
+          <img src="./img/icons/mail-icon.svg" alt="mail_icon" class="modal_icon">
+          <h4 class="modal_title">Я свяжусь с вами на <br> протяжении ближайшего часа</h4>
+
+          <form action="#" class="modal_container_form" id="modal_email_container">
+            <div class="email_input_container" id="email_input_container">
+              <label for="user_email" class="user_email_title">Email</label>
+              <input type="email" name="user_email" id="user_email" class="user_email" placeholder="Укажите email">
+              <p class="email_error_text">Проверьте email</p>
+            </div>
+
+              <button type="submit" class="modal_submit_btn">Отправить</button>
+         
+          </form>
+        </div>
+     </div>
+
+     <div class="modal_bgd " id="success_modal">
+      <div class="modal_container modal_container_success">
+        <button class="modal_close_btn">
+          <img src="./img/icons/close-icon.svg" alt="close_icon" class="modal_icon_success">
+       </button> 
+
+       <img src="./img/icons/Vector.svg" alt="mail_icon" class="modal_icon">
+          <p class="modal_succcess_massage">Все отлично! <br> 
+            Запрос отправлен
+          </p>
+      </div>  
+      </div>
+
+
+
+
+      <script src="./js/script.js"></script>
+</body>
+</html>

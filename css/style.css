@@ -1,0 +1,439 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #F3F5F9;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    
+    color:#333;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    justify-content: space-between;
+    position: relative;
+}
+/* Contacts_section*/
+
+.contacts_section{
+    position: absolute;
+    top: 35px;
+    right: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.telegram_link,
+.linkedin_icon,
+.facebook_icon,
+.viber_link,
+.phone_link_icon{
+    text-decoration: none;
+}
+
+.telegram_icon,
+.viber_icon,
+.phone_icon{
+    width: 18px;
+    height: 18px;
+}
+
+.telegram_icon,
+.viber_icon{
+    margin-right: 15px;
+}
+
+.phone_icon{
+    margin-right: 20px;
+}
+
+.phone_link_number{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.my_photo{
+   
+    margin-bottom: 25px;
+    border-radius: 50% ;
+}
+
+.exp_section{
+    width: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon{
+    width: 18px;
+    height: 18px;
+}
+
+.linkedin-icon{
+    margin-right: 15px;
+}
+
+.exp_dicript{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.exp_dicript_text{
+    text-align: center;
+    font-size:16px;
+    line-height: 24px;
+}
+
+.exp_dicript_text_first{
+    margin-bottom: 8px;
+}
+
+.technolgies_container{
+    margin-bottom: 50px;
+}
+
+.js_icon,
+.react_icon{
+    margin-right: 15px;
+}
+
+
+
+.my_projects_link{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #EB5757;
+    text-decoration-line: underline;
+}
+
+.my_info_section{
+    width: 33%;
+    margin: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.my_name{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.my_profession{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;  
+    color: #333333;
+    margin-bottom: 35px;
+}
+
+.my_location,
+.my_workstyle{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #2F80ED;
+    padding: 5px 15px 5px 15px;
+}
+
+.my_workstyle{
+    margin-bottom: 100px;
+}
+
+.my_description{
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+    margin-bottom: 15px;
+}
+
+.my_skills_title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.my_skills_item{
+    font-size: 16px;
+    line-height: 24px;
+    color:  #2F80ED;;
+}
+
+.my_skills_list{
+    list-style: disc;
+    padding-left: 15px;
+}
+.my_skills_text{
+    color: #4F4F4F;
+} 
+
+/*Project_price_section*/
+
+.project_price_section{
+    width: 33%;
+}
+.project_price_form{
+    padding: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+}
+
+.project_price_title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color:  #000000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.project_type_container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.form_field_title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.project_price_select{
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+    border: none;
+    outline: none;   
+    border-bottom: 1px solid #4F4F4F;
+    padding-bottom: 10px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.activity_type_container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.activity_type_item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.activity_type_title{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.activity_type_checkbox{
+    width: 18px;
+    height: 18px;
+}
+
+.project_price_sum{
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+}
+
+.project_price_sum_currency{
+    color: #2F80ED;
+    font-weight: bold;
+}
+
+.project_price_container{
+    margin-bottom: 30px;
+}
+
+.project_price_calculate_btn_container{
+    width: 100%;
+    text-align: center;
+}
+.project_price_calculate_btn{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #2F80ED;
+    border-radius: 24px;
+    padding: 12px 32px 12px 32px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/*Modals_section*/
+
+.modal_bgd{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(51 51 51 / 90%); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.modal_active{
+    pointer-events: all;
+    opacity: 1;
+}
+
+.modal_container{
+    background: #FFFFFF;
+    border-radius: 16px;
+   
+    padding: 110px 40px;
+    width: 364px;
+    height: 604px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.modal_title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #2F80ED;
+    margin-bottom: 40px;
+}
+
+.user_email_title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;width: 100%;
+}
+
+.modal_container_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.user_email{
+    
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #4F4F4F;
+}
+
+.email_input_container{
+    margin-bottom: 115px ;
+    height: 115px;
+}
+
+.email_error_text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #EB5757;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+}
+
+.email_input_container_error .email_error_text{
+    display: block;
+}
+
+.email_input_container_error .user_email{
+    border-bottom: 1px solid #EB5757;
+}
+
+
+.modal_submit_btn{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #2F80ED;
+    border-radius: 24px;
+    padding: 12px 32px 12px 32px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.modal_icon{
+    margin-bottom: 35px;
+}
+
+
+.modal_close_btn{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.modal_succcess_massage{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F80ED;
+    text-align: center;
+}
+
+.modal_container_success{
+    justify-content: center;
+    
+}
+
+.modal_icon_success{
+    margin-bottom: 35px;
+}
+
